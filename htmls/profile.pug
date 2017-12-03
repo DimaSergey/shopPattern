@@ -1,0 +1,42 @@
+extend base.pug
+block content
+	section
+		header
+			h1
+				|Hello, CustomerName
+		a(href="#settings")
+			|Your settings 
+		a(href="#orders")
+			|Your orders
+	section(id="settings")
+		form(method="POST")
+			header
+				h2
+					|Change password
+			input(type="password" placeholder="Please, write your old password" required name="oldPass")
+			input(type="password" placeholder="Please, write your new password" required name="newPass1")
+			input(type="password" placeholder="Please, write your new password one more time" required name="newPass2")
+			button(type="submit")
+				|Confirm
+	section(id="orders")
+		table
+			thead
+				tr
+					td
+						|Product's name
+					td
+						|Amount
+					td
+						|Address
+					td
+						|Price
+			tbody
+				tr
+					td
+						|IPhone X
+					td
+						|3
+					td
+						|Kharkiv, 134B
+					td
+						|$399

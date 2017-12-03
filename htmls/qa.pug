@@ -1,0 +1,18 @@
+extend base.pug
+block content
+	header
+		h1
+			|Questions and answers
+	article
+		header
+			h2
+				|Question
+		p
+			|Question text
+		p
+			|Answer text
+	form(method="POST")
+		input(type="text" placeholder="Write topic" required)
+		textarea(placeholder="Please write your question" required)
+		button(type="submit")
+			|Submit question

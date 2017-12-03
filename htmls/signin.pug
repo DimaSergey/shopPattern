@@ -1,0 +1,7 @@
+extend base.pug
+block content
+	form(method="POST")
+		input(type="text" placeholder="Enter your user name" required name="username")
+		input(type="password" placeholder="Enter your password" required name="password")
+		button(type="Submit")
+			|Sign in

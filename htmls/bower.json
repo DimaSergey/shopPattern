@@ -1,0 +1,17 @@
+{
+  "name": "shop",
+  "homepage": "https://github.com/DimaSergey/shopPattern",
+  "authors": [
+    "dimonluk <lds4ever2000@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
